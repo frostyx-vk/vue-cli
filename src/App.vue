@@ -8,7 +8,7 @@
           <newNote :note="note" @addNote="addNote" />
           <div class="note-header" style="margin: 20px 0;">
             <h1>{{ title }}</h1>
-            <search :value="search" placeholder="Найти zzz заметку" @search="search = $event" />
+            <search :value="search" placeholder="Найти заметку" @search="search = $event" />
             <div class="icons">
               <svg :class="{ active: grid }" @click="grid = true" xmlns="http://www.w3.org/2000/svg" width="24"
                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
